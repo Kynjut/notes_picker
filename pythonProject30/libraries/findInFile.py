@@ -1,4 +1,3 @@
-
 def find_by_text_part(filename, text_part: str):
     lines = read_file_lines(filename)
     text = ''.join(lines)
