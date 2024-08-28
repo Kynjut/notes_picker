@@ -12,6 +12,7 @@ def create():
 def delete():
     name = input('enter name of note, you want to delete:\n')
     os.remove(f'C:\\Users\\admin\\Documents\\CyberClub\\CollabRep\\{name}.txt')
+    os.remove(f'C:\\Users\\admin\\Documents\\GitHub\\notes_picker\\pythonProject30\\{name}.txt')
 
 
 create()
